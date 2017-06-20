@@ -7,7 +7,7 @@ sumthing = 0
 def catchUpCheckbook():
 	global sumthing
 	x = input('>> ')
-	if x == 'end' or x == 'bye' or x == 'exit' or x == 'quit':
+	if x == 'end' or x == 'bye' or x == 'exit' or x == 'quit' or x == 'x':
 		Goodbye()
 	elif x == 'clear' or x == 'c' or x == 'C' or x == 'clear all' or x == 'clearall':
 		ClearAll()
